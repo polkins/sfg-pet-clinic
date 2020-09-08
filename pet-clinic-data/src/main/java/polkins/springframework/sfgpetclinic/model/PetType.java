@@ -1,4 +1,4 @@
-package model;
+package polkins.springframework.sfgpetclinic.model;
 
 public class PetType {
     private String name;
