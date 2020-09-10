@@ -1,6 +1,8 @@
 package polkins.springframework.sfgpetclinic.model;
 
-public class PetType {
+import polkins.springframework.sfgpetclinic.BaseEntity;
+
+public class PetType extends BaseEntity {
     private String name;
 
     public String getName() {
@@ -11,3 +13,4 @@ public class PetType {
         this.name = name;
     }
 }
+ 

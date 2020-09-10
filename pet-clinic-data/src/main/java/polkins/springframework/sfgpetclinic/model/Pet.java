@@ -1,6 +1,8 @@
 package polkins.springframework.sfgpetclinic.model;
 
-public class Pet {
+import polkins.springframework.sfgpetclinic.BaseEntity;
+
+public class Pet extends BaseEntity {
     private PetType petType;
     private Owner owner;
     private String birthday;

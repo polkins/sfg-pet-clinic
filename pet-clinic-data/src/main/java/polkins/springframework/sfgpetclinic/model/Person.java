@@ -1,6 +1,8 @@
 package polkins.springframework.sfgpetclinic.model;
 
-public class Person {
+import polkins.springframework.sfgpetclinic.BaseEntity;
+
+public class Person extends BaseEntity {
     private String firstName;
     private String lastName;
 
