@@ -1,4 +1,4 @@
-package polkins.springframework.sfgpetclinic;
+package polkins.springframework.sfgpetclinic.model;
 
 import java.io.Serializable;
 
