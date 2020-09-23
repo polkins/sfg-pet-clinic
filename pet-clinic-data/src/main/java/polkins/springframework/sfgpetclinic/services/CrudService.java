@@ -10,5 +10,5 @@ public interface CrudService<T, ID> {
 
     Set<T> findAll();
 
-    void delete(ID id);
+    void delete(T object);
 }
